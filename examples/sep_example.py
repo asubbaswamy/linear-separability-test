@@ -1,7 +1,12 @@
 #!/usr/bin/python
 
+import os
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
+
+sys.path.insert(0,'..')
+import lin_sep
 from lin_sep import linearly_separable
 
 plt.style.use('ggplot')
