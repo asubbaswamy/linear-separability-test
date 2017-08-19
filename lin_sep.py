@@ -35,8 +35,6 @@ def linearly_separable(X, y):
 
     X1 = X[y0_indices, :]
     X2 = X[y1_indices, :]
-    y1 = y[y0_indices]
-    y2 = y[y1_indices]
 
     n1 = X1.shape[0]
     n2 = X2.shape[0]
